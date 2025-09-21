@@ -1,0 +1,61 @@
+# Terraform
+# Local .terraform directories
+.terraform/
+
+# Crash log files
+crash.log
+
+# Terraform state files
+# These contain sensitive data and should not be committed
+*.tfstate
+*.tfstate.backup
+terraform.tfstate
+terraform.tfstate.backup
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore generated plan output
+*.tfplan
+
+# IDE / Editor directories and files
+.vscode/
+/.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Python virtualenvs (if any)
+venv/
+env/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Backup files
+*~
+# Swap files
+*.swp
+
+# Optional: lock files that may be created by Terraform providers or tools
+*.lock.hcl
+
+# Keep Terraform Provider binaries out (if you vendor them)
+plugins/
+
